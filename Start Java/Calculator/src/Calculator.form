@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="Calculator" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="366" height="424"/>
+    </constraints>
+    <properties>
+      <background color="-9729126"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="eee40" class="javax.swing.JButton" binding="b_minus">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="f0490" class="javax.swing.JButton" binding="b_mult">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="26be1" class="javax.swing.JButton" binding="b_sep">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="13ec5" class="javax.swing.JButton" binding="b6">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="d5260" class="javax.swing.JButton" binding="b5">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="726b7" class="javax.swing.JButton" binding="b4">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="99223" class="javax.swing.JButton" binding="b3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="f8f54" class="javax.swing.JButton" binding="b2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="7512f" class="javax.swing.JButton" binding="b1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="fae31" class="javax.swing.JButton" binding="b0">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="666a8" class="javax.swing.JButton" binding="b8">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="35c8e" class="javax.swing.JButton" binding="b9">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="ffd46" class="javax.swing.JButton" binding="b_plus">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="b0822" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4067585"/>
+          <font name="JetBrains Mono" size="20" style="0"/>
+        </properties>
+      </component>
+      <component id="af1ce" class="javax.swing.JButton" binding="b_result">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="27909" class="javax.swing.JButton" binding="b7">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="5ea17" class="javax.swing.JButton" binding="b_clear">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="cl"/>
+        </properties>
+      </component>
+      <component id="c14f1" class="javax.swing.JButton" binding="b_point">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <text value="."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
